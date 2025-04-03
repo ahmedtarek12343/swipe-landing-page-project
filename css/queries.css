@@ -1,0 +1,158 @@
+@media only screen and (max-width: 72em) {
+  .container {
+    padding: 0 var(--spacing_md);
+  }
+  .partners_img {
+    width: 100%;
+    height: auto;
+  }
+
+  .integration-section .left-col {
+    width: 100%;
+  }
+
+  .integration-section .right-col {
+    width: 40%;
+  }
+
+  .integration-section .api_img,
+  .integration-section .terminal_img {
+    display: none;
+  }
+
+  .heading_primary {
+    font-size: 6rem;
+  }
+
+  .hero-paragraph {
+    margin-bottom: 6rem;
+  }
+}
+
+@media only screen and (max-width: 48em) {
+  :root {
+    --h1_size: 6.4rem;
+    --h1_height: 7.2rem;
+    --h3_size: 3.4rem;
+  }
+  .unified-platform .heading_secondary {
+    width: 100%;
+  }
+
+  .integration-section .card-container {
+    flex-direction: column;
+  }
+
+  .why-swipe-section .card-container {
+    flex-wrap: wrap;
+  }
+
+  .why-swipe-section .card {
+    width: 48%;
+  }
+
+  .global-section .card-container .card {
+    width: 48%;
+    margin: var(--spacing_md) 0;
+  }
+
+  .global-section .card-container {
+    flex-wrap: wrap;
+    margin-top: var(--spacing_xl);
+  }
+
+  .ve-container {
+    flex-direction: column;
+  }
+
+  .ve-container .left-col {
+    width: 100%;
+  }
+
+  .virtual-events-section .swipe-sessions-card {
+    margin-top: 5rem;
+  }
+
+  .virtual-events-section::after {
+    top: -19%;
+  }
+  .gs-container {
+    flex-direction: column;
+  }
+  .gs-container .left-col,
+  .gs-container .right-col {
+    width: 100%;
+    padding: 0;
+  }
+  .gs-container .card {
+    margin: 3rem 0;
+  }
+
+  .footer-container {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .footer .col {
+    width: 48%;
+  }
+
+  .section-hero .right-col {
+    display: none;
+    visibility: hidden;
+  }
+
+  .section-hero .left-col {
+    width: 100%;
+  }
+
+  .nav_list {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 35em) {
+  .two-col {
+    flex-direction: column;
+  }
+
+  .two-col .right-col,
+  .two-col .left-col {
+    width: 100%;
+    padding: 0;
+  }
+
+  .partners_grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .unified-platform .heading_secondary {
+    width: 100%;
+  }
+  .why-swipe-section .card {
+    width: 100%;
+  }
+
+  .global-section .card-container .card {
+    width: 100%;
+    margin: var(--spacing_md) 0;
+  }
+  .globe {
+    opacity: 8%;
+  }
+  .virtual-events-section .swipe-sessions-card {
+    width: 100%;
+  }
+  .swipe-sessions-card .secondary_paragraph {
+    width: 100%;
+  }
+  .virtual-events-section::after {
+    top: -19%;
+  }
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+}
